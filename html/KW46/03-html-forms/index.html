@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KW46-03</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" minlength="2" autocomplete="off" pattern="[A-Za-Z]"><br>
+
+        <label for="plz">PLZ (1000-9999):</label>
+        <input type="number" id="plz" min="1000" max="9999" autocomplete="off"><br>
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" size="30"><br>
+
+        <label for="mix">Mix:</label>
+        <input type="text" name="mix" id="mix" pattern="[A-Za-z][^0-9]">
+    </form>
+</body>
+
+</html>
