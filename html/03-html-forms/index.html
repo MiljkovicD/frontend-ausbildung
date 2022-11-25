@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form>
+    <form action="./index2.html">
         <label for="name">Name:</label>
         <input type="text" id="name" minlength="2" autocomplete="off" pattern="[A-Za-z]*" required><br>
 
@@ -20,9 +20,28 @@
         <input type="email" id="email" size="30" required><br>
 
         <label for="mix">Mix:</label>
-        <input type="text" name="mix" id="mix" pattern="[A-Za-z0-9]*" autocomplete="off" required>
-        <br>
-        <input type="submit">
+        <input type="text" name="mix" id="mix" pattern="[A-Za-z0-9]*" autocomplete="off" required><br>
+
+        <label for="datum">Datum:</label>
+        <input type="datetime-local" id="datetime" required><br>
+
+        <label for="range">Range:</label>
+        <input type="range" min="10" max="50" step="10" required><br>
+
+        <label for="text">Text:</label>
+        <input type="text" minlength="2" required><br>
+
+        <div>
+            <input type="checkbox" id="coding" required />
+            <label for="coding">Checkbox linked with for/id</label><br>
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" required />
+                <span>Checkbox nest in a label</span>
+            </label>
+        </div>
+        <input type="submit" value="Submit" />
     </form>
 </body>
 
