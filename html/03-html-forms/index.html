@@ -22,26 +22,26 @@
         <label for="mix">Mix:</label>
         <input type="text" name="mix" id="mix" pattern="[A-Za-z0-9]*" autocomplete="off" required><br>
 
-        <label for="datum">Datum:</label>
-        <input type="datetime-local" id="datetime" required><br>
+        <label for="datetime-local">Datum:</label>
+        <input type="datetime-local" id="datetime-local" required><br>
 
         <label for="range">Range:</label>
-        <input type="range" min="10" max="50" step="10" required><br>
+        <input type="range" id="range" min="10" max="50" step="10"><br>
 
         <label for="text">Text:</label>
-        <input type="text" minlength="2" required><br>
+        <input type="text" id="text" minlength="2" required><br>
 
         <div>
-            <input type="checkbox" id="coding" required />
+            <input type="checkbox" id="coding" required >
             <label for="coding">Checkbox linked with for/id</label><br>
         </div>
         <div>
             <label>
-                <input type="checkbox" required />
+                <input type="checkbox" required >
                 <span>Checkbox nest in a label</span>
             </label>
         </div>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" >
     </form>
 </body>
 
