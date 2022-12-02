@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KW47-06</title>
 </head>
+
 <body>
     <div>block element div
         <nav>block element nav</nav>
         <p>block element p</p>
         <span>inline element span</span>
         <cite>inline element cite</cite>
-        <picture>inline element picture</picture>
-        <article>block element article</article>
+        <picture>
+            <img src="beispiel" alt="beispiel">
+        </picture>
+        <article>
+            <h1>inline element inside block element</h1>
+        </article>
         <fieldset>block element fieldset</fieldset>
         <button>inline element button</button>
     </div>
     <form>
-        <legend>block element legend</legend>
         <label for="beispiel">inline element label</label>
-        <input type="text">
+        <input type="text" id="beispiel">
     </form>
-    <ul>block element ul
+    <ul>
         <li>block element li</li>
         <li>block element li</li>
         <li>block element li</li>
     </ul>
-    <ol>block element ol
+    <ol>
         <li>block element li</li>
         <li>block element li</li>
         <li>block element li</li>
     </ol>
-    <span>inline element span 
-        <p>block element p inside a span tag</p>
+    <p>block element p</p>
+    <span>inline element span
         <q>inline element q inside a inline element span</q>
         <cite>inline element cite inside a inline element span</cite>
     </span>
-    <cite>///inline element cite 
-        <section>block element section inside inline element cite
-            <q>inline element q inside block element section
-                <main>block element main inside inline element q
-                    <address>block element address inside block element main</address>
-                </main>
+    <section>
+        <h1>inline element inside block element</h1>
+    </section>
+    <address>block element address</address>
+    <main>
+        <cite>///inline element cite
+            <q>inline element q inside block element 
             </q>
-        </section>
-    </cite>
+        </cite>
+    </main>
 </body>
+
 </html>
