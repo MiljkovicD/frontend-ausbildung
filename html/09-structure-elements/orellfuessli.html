@@ -1,0 +1,266 @@
+<body data-thalia-app="">
+    <div id="top" class="ncRoot">
+
+
+
+
+        <header-global>
+            <link rel="stylesheet"
+                href="https://assets.thalia.media/red/cms/components/header-global/style.47ed1182bb0414e6e3dd.orellfuessli.css">
+
+            <div class="header-grid">
+
+                <section class="header-filiale">
+                    <header-global-filiale component="header-global-filiale">
+                        <script>
+                            var buchhandlungBezeichnung = 'Filiale';
+                        </script>
+                        <script type="module"
+                            src="https://assets.thalia.media/red/cms/components/header-global-filiale/main-module.b0c79d3802969fa991e4.js"
+                            defer=""></script>
+                        <script nomodule=""
+                            src="https://assets.thalia.media/red/cms/components/header-global-filiale/main-nomodule.55623252562719ec1fa0.js"
+                            defer=""></script>
+                        <link rel="stylesheet"
+                            href="https://assets.thalia.media/red/cms/components/header-global-filiale/style.19ebaac14c21289ef48e.orellfuessli.css">
+
+                        <div class="filial-wrapper">
+                            <a href="https://www.orellfuessli.ch/shop/home/filialen"
+                                class="element-link-small filial-link" interaction="link-filialsuche">Meine Filiale</a>
+                            <a href="https://www.orellfuessli.ch/shop/geschaeftskunden/show/"
+                                class="element-link-small geschaeftskunden-link"
+                                interaction="link-geschaeftskunden">Geschäftskunden</a>
+                        </div>
+
+                    </header-global-filiale>
+                </section>
+
+                <section class="header-suche">
+                    <header-global-suche component="header-global-suche">
+                        <suche-global component="search-field">
+                            <link rel="stylesheet"
+                                href="https://assets.thalia.media/ocsassets/suchocs/suche-global/style.881496d890c33a204308.orellfuessli.css">
+
+                            <suche-suggest data-api-empfehlungen="/api/37/suggest/v1"
+                                data-api-dynamisch="/suche/v1/suchhistorie.html">
+                                <div class="backdrop" aria-hidden="true"></div>
+
+                                <form class="suche-formular" action="/suche" method="GET">
+                                    <div class="suche-wrapper">
+                                        <fieldset class="eingabefeld-wrapper">
+                                            <kategorie-filter>
+                                                <button aria-hidden="true" type="button" class="element-chip-small"
+                                                    data-status="active" component="search-field"
+                                                    interaction="kategorie-filter-entfernen">
+                                                    <span class="kategorie-label"></span>
+                                                </button>
+                                            </kategorie-filter>
+                                            <input class="kundeneingabe" type="search"
+                                                placeholder="Titel, Autor, Stichwort, ISBN" name="sq" autocomplete="off"
+                                                autocorrect="off" aria-label="Eingabefeld für den Suchbegriff">
+                                            <button type="reset" interaction="suche-zuruecksetzen">Suche-Formular
+                                                zurücksetzen</button>
+                                        </fieldset>
+                                        <button type="submit" interaction="suchanfrage-abschicken">Suchanfrage
+                                            abschicken</button>
+                                    </div>
+                                </form>
+
+                                <dialog class="suche-overlay">
+                                    <header class="suche-wrapper-overlay">
+                                        <form class="suche-formular-overlay" action="/suche" method="GET">
+                                            <fieldset class="eingabefeld-wrapper">
+                                                <button type="button" interaction="suche-overlay-schliessen">Overlay
+                                                    schliessen</button>
+                                                <kategorie-filter>
+                                                    <button aria-hidden="true" type="button" class="element-chip-small"
+                                                        data-status="active" component="search-field"
+                                                        interaction="kategorie-filter-entfernen">
+                                                        <span class="kategorie-label"></span>
+                                                    </button>
+                                                </kategorie-filter>
+                                                <input class="kundeneingabe-overlay" type="search"
+                                                    placeholder="Titel, Autor, Stichwort, ISBN" name="sq"
+                                                    autocomplete="off" autocorrect="off"
+                                                    aria-label="Eingabefeld für den Suchbegriff">
+                                                <button type="reset" interaction="suche-zuruecksetzen">Suche-Formular
+                                                    zurücksetzen</button>
+                                            </fieldset>
+                                            <button type="submit" interaction="suchanfrage-abschicken">Suchanfrage
+                                                abschicken</button>
+                                        </form>
+                                    </header>
+                                    <div class="suche-overlay-inhalt scroll">
+                                        <div container-dynamisch=""></div>
+                                        <div container-empfehlungen=""></div>
+                                    </div>
+                                    <div class="ladeindikator" aria-hidden="true">
+                                        <span class="element-icon-loading" data-size="large"
+                                            data-status="loading"></span>
+                                    </div>
+                                </dialog>
+                            </suche-suggest>
+
+                            <img src="/cookiemonster/v1/sprite03.png" width="1" height="1" alt="" style="display:none;">
+                            <sentry-config project-name="suche" project-dsn="a30b1fb03c054108ab64c87ea7dd18df"
+                                project-id="43" project-files=".*suche-global.*js"
+                                release-version="20221128163037_a4a1497"></sentry-config>
+                        </suche-global>
+
+
+                    </header-global-suche>
+                </section>
+
+                <section class="header-navigation">
+
+
+
+                    <header-global-navigation
+                        data-categories="/cms/api/1/services/flyout.json?tenantId=37&amp;storeUrl=L3NpdGUvY29tcG9uZW50cy9waW5uZWQvb3JlbGxmdWVzc2xpX2NoL25hdmlnYXRpb24vMTRlNjUxZGYtZjhkYy1iMTNmLTU0OTYtZjhlYWE1OGJlZDgxLnhtbA=="
+                        data-active-category="a21d" component="header-global-navigation" impression="product">
+                        <link rel="stylesheet"
+                            href="https://assets.thalia.media/red/cms/components/header-global-navigation/style.fd2e7e81b940a6c9945c.orellfuessli.css">
+
+                        <label class="element-link-standard off-canvas-open" for="off-canvas-hamburger"
+                            data-test="hamburgerMenu">
+                            <span class="icon-hamburger"></span>
+                            <small class="aside-menu">Menü</small>
+                        </label>
+
+                        <input class="off-canvas-hamburger" id="off-canvas-hamburger" name="hamburger" type="checkbox">
+                        <label class="off-canvas-aside" for="off-canvas-hamburger"></label>
+
+                        <nav role="navigation" class="off-canvas no-scrollbar">
+
+                            <label class="off-canvas-close element-text-standard" for="off-canvas-hamburger">
+                                <span class="icon-close"></span>
+                            </label>
+
+                            <ul role="menu" class="logo no-bullets">
+                                <li class="item">
+                                    <a role="menuitem" href="https://www.orellfuessli.ch/" title="Orell Füssli Logo"
+                                        class="off-canvas-logo" interaction="link-startseite">Orell Füssli
+                                        Startseite</a>
+                                </li>
+                            </ul>
+
+                            <ul role="menu" class="main-nav no-bullets no-scrollbar" interaction="navigation-links">
+                                <li class="item" data-flyout="d8f4">
+                                    <a role="menuitem" caption="Bücher" class="element-link-standard link icon-books"
+                                        target="" href="https://www.orellfuessli.ch/kategorie/buecher-2/">
+                                        Bücher
+                                        <span class="item-overlay"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header-global-navigation>
+
+                </section>
+
+            </div>
+
+            <div class="gradient"></div>
+
+        </header-global>
+
+
+
+        <div class="row cms-content">
+            <div class="xlarge-12 column">
+                <banner-slider-vis component="banner-slider-vis" data-slide-push="1">
+                    <link rel="stylesheet"
+                        href="https://assets.thalia.media/red/cms/components/banner-slider-vis/style.fb0f61d36f4091a18d25.orellfuessli.css">
+
+                    <section class="slider-vis-main">
+
+                        <ul class="slider-vis scroll" impression="promotion"
+                            promotion-name="home Banner-Slider VIS ab 27.11.">
+
+                            <li class="slide-vis bildMitTextbox">
+
+                                <picture class="slide-picture">
+                                    <source
+                                        srcset="https://assets.thalia.media/img/cms/5b3e8fbf73b9111c864f262f8e38fc638353f993.jpg"
+                                        media="(max-width: 575px)" width="575" height="500">
+                                    <img class="slide-background"
+                                        src="https://assets.thalia.media/img/cms/45e88980f79d3f95098e467cda723b979710a8a2.jpg"
+                                        alt="Gewinnspiel" width="1150" height="500">
+                                </picture>
+
+                                <div class="textbox  ">
+                                    <p class="element-text-large-strong label">Gewinnspiel</p>
+                                    <h2 class="element-headline-large headline">Gewinnen Sie einen 7-tägigen Segeltörn
+                                    </h2>
+                                    <h3 class="element-headline-small subheadline">Jetzt teilnehmen</h3>
+                                </div>
+
+                                <div class="products">
+                                </div>
+
+                                <a href="https://www.orellfuessli.ch/gewinnspiele/gewinnspiel-online"
+                                    class="layered-link" promotion-creative="Gewinnen Sie einen 7-tägigen Segeltörn"
+                                    target=""></a>
+
+                            </li>
+                        </ul>
+                    </section>
+                </banner-slider-vis>
+            </div>
+        </div>
+
+        <footer-sitemap component="footer-sitemap">
+            <link rel="stylesheet"
+                href="https://assets.thalia.media/red/cms/components/footer-sitemap/style.c14952ea152e76bd4e3a.orellfuessli.css">
+            <div class="sitemap-container">
+                <div class="sitemap-groups">
+                    <details class="sitemap-group" interaction="Über Orell Füssli" open="">
+                        <summary class="element-text-standard-strong sitemap-headline">Über Orell Füssli <span
+                                class="accordion-handle"></span></summary>
+                        <ul class="sitemap-links">
+
+                            <li class="sitemap-entry">
+                                <a href="/unternehmen/unternehmen" class="element-link-standard-soft sitemap-link"
+                                    caption="Unternehmen">
+                                    Unternehmen
+                                </a>
+                            </li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </footer-sitemap>
+
+
+        <footer-badges component="footer-badges" interaction="Footer Badges Payment CH">
+            <link rel="stylesheet"
+                href="https://assets.thalia.media/red/cms/components/footer-badges/style.b437785fe0793e534731.orellfuessli.css">
+            <div class="badges-container">
+                <a href="/shop/hilfe-bezahlen/show/" caption="VISA" class="footer-badge-link">
+                    <img class="footer-badge"
+                        src="https://assets.thalia.media/img/cms/5fc14d44e8cd1b6aaa512f2ffc2fd62855f027d9.jpg"
+                        alt="VISA" title="VISA">
+                </a>
+            </div>
+        </footer-badges>
+        <footer-benefits component="footer-benefits">
+            <link rel="stylesheet"
+                href="https://assets.thalia.media/red/cms/components/footer-benefits/style.cb56f3d4f72115d71469.orellfuessli.css">
+            <script> </script>
+            <div class="benefits-container">
+                <ul class="footer-benefits-list">
+                    <li class="element-text-standard footer-benefits-list-item">Filialabholung innerhalb von 2 Stunden
+                    </li>
+                    <li class="element-text-standard footer-benefits-list-item">Gastbestellung</li>
+                    <li class="element-text-standard footer-benefits-list-item">Kostenloser Versand ab Fr. 30.-</li>
+                </ul>
+                <a href="" interaction="more-link" class="element-link-standard footer-benefits-link">
+
+                </a>
+            </div>
+        </footer-benefits>
+
+    </div>
+
+
+</body>
