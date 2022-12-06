@@ -8,4 +8,4 @@
 
 4. Seiten wie PSNProfiles sind leider nicht sehr VoiceOver freundlich. Es gibt ein paar Elemente die gut funktionieren aber die Seite an sich ist nicht für beschränkte Leute bestimmt.
 
-5. Manche Seiten haben auch die Eigenschaft gut gemacht das es runterscrollt wenn der VoiceOver über die Elemente springt.
+5. Manche Seiten haben auch die Eigenschaft gut gemacht das es runterscrollt wenn der VoiceOver über die Elemente springt. Damit will ich nicht sagen das es die anderen Seiten nicht haben sondern es einfach automatisch runterscrollen lassen und es manchmal nicht richtig angezeigt wird.
