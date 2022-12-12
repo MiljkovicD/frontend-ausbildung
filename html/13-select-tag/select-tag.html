@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KW49-13</title>
+</head>
+
+<body>
+    <label for="protagonist-select">Wähle einen Protagonisten:
+        <select name="protagonist" id="protagonist-select">
+            <option value="batman">Batman</option>
+            <option value="songoku">Son Goku</option>
+            <option value="lukeskywalker">Luke Skywalker</option>
+            <option value="jacksparrow">Captain Jack Sparrow</option>
+        </select>
+    </label>
+    <br>
+    <select name="auswahl" id="auswahl">
+        <option value="erste">erste Auswahl</option>
+        <option value="zweite" selected>zweite Auswahl</option>
+        <option value="dritte">dritte Auswahl</option>
+    </select>
+    <br>
+    <label>Wähle einen oder mehrere Protagonisten:
+        <select name="protangonist" multiple size="4">
+            <optgroup label="comic-protagonist">
+                <option value="batman">Batman</option>
+                <option value="wonderwoman">Wonder Woman</option>
+                <option value="superman" disabled>Superman</option>
+            </optgroup>
+            <optgroup label="anime-protagonist">
+                <option value="songoku">Son Goku</option>
+                <option value="ruffy">Ruffy</option>
+                <option value="naruto">Naruto</option>
+            </optgroup>
+        </select>
+    </label>
+
+    <form>
+        <fieldset id="anime">
+            <legend>Anime Protagonisten</legend>
+            <select name="1A" id="select" autocomplete="off" required>
+                <option value="">Son Goku</option>
+                <option value="monkeydruffy">Monkey D. Ruffy</option>
+                <option value="naruto">Naruto</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>
