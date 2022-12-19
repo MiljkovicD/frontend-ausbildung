@@ -27,7 +27,6 @@ div[lang~="en-us"] {
     Unabhänig davon ob vereinfacht oder traditionelles Chinesisch. */
 div[lang|="zh"] {
     color: red;
-    ;
 }
 
 /* Class Selectors */
