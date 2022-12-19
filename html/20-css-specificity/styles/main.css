@@ -1,3 +1,25 @@
-.container {
-    color: red;
+.box {
+    color: crimson;
+}
+
+.box-box {
+    color: chartreuse;
+}
+
+#containerbox [id="container"] {
+    color: green;
+}
+
+#container {
+    color: blue;
+}
+
+#myElement {
+    color: green;
+    /* 1-0-0  - WINS!! */
+}
+
+.bodyClass .sectionClass .parentClass [id="myElement"] {
+    color: blueviolet;
+    /* 0-4-0 */
 }
