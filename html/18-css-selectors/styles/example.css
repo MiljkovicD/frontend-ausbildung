@@ -1,13 +1,65 @@
-/* div beispiele */
-
+/* 1 Punkt */
 div {
-    color: red;
+    color: blue
 }
-
-.box {
+/* 21 Punkte */
+div .box.box1 {
+    color: green;
+}
+/* 2 Punkte */
+div span {
+    color: violet;
+}
+/* 10 Punkte */
+.text {
+    color: aqua;
+}
+/* 1 und 11 Punkte */
+div,
+p.para {
+    color: brown;
+}
+/* 10 Punkte */
+.btn {
+    color: chartreuse;
+}
+/* 50 Punkte */
+.box .box.box1.box2 .btn {
+    color: orange;
+}
+/* 1 Punkt */
+a {
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+/* 11 Punkte */
+a:hover {
+    background-color: bisque;
+}
+/* 20 Punkte */
+.link[href="#"] {
     color: blueviolet;
 }
-
-.box-box {
+/* 21 Punkte */
+a.link[target="_blank"] {
+    color: orange;
+}
+/* 21 Punkte */
+a.link.link-small {
+    font-size: 15px;
+}
+/* 21 Punkte */
+a.link.link-disabled {
+    color: grey;
+    pointer-events: none;
+}
+/* 2 Punkte */
+article > p {
+    color: coral;
+}
+/* 22 Punkte */
+article p.lorem-ipsum::first-line {
+    font-weight: bold;
     color: blue;
 }
