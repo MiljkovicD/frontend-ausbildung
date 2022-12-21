@@ -1,25 +1,61 @@
-.box {
-    color: crimson;
+span {
+    color: blueviolet;
 }
 
-.box-box {
-    color: chartreuse;
-}
-
-#containerbox [id="container"] {
-    color: green;
-}
-
-#container {
+.first-section .first-box .second-box {
     color: blue;
 }
 
-#myElement {
-    color: green;
-    /* 1-0-0  - WINS!! */
+.second-box {
+    color: darkcyan; 
 }
 
-.bodyClass .sectionClass .parentClass [id="myElement"] {
-    color: blueviolet;
-    /* 0-4-0 */
+.first-paragraph {
+    color: red
+}
+
+.second-span {
+    color: aqua;
+}
+
+.first-span {
+    color: firebrick;
+}
+
+.first-section .second-box .first-span {
+    color: darkblue;
+}
+
+section article h4 {
+    color: cadetblue;
+}
+
+section article p.second-paragraph.third-paragraph {
+    color: yellowgreen
+}
+
+.second-header {
+    color: saddlebrown;
+}
+
+.fourth-paragraph {
+    color: hotpink !important;
+}
+
+section article.first-article p {
+    color: darkolivegreen;
+}
+
+.second-section,
+.first-article,
+.third-paragraph {
+    color: orange;
+}
+
+.third-paragraph {
+    color: royalblue;
+}
+
+.first-article .third-paragraph {
+color: slateblue;
 }
