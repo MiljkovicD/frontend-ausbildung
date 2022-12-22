@@ -1,0 +1,230 @@
+.flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.armenia {
+    background: linear-gradient(crimson 33%,
+            blue 33%,
+            blue 67%,
+            orange 0);
+}
+
+.austria {
+    background: linear-gradient(red 33%,
+            white 33%,
+            white 67%,
+            red 0);
+}
+
+.bangladesh {
+    background: radial-gradient(circle at 45%,
+            red 30%,
+            darkgreen 0);
+}
+
+.belgium {
+    background: linear-gradient(to right,
+            black 33%,
+            yellow 33%,
+            yellow 67%,
+            red 0);
+}
+
+.bulgaria {
+    background: linear-gradient(white 33%,
+            green 33%,
+            green 66%,
+            red 0);
+}
+
+.chad {
+    background: linear-gradient(to right,
+            navy 33%,
+            yellow 33%,
+            yellow 67%,
+            crimson 0);
+}
+
+.colombia {
+    background: linear-gradient(yellow 50%,
+            darkblue 50%,
+            darkblue 75%,
+            crimson 0);
+}
+
+.estonia {
+    background: linear-gradient(dodgerblue 33%,
+            black 33%,
+            black 67%,
+            white 0);
+}
+
+.france {
+    background: linear-gradient(to right,
+            blue 33%,
+            white 33%,
+            white 67%,
+            red 0);
+}
+
+.gabon {
+    background: linear-gradient(mediumseagreen 33%,
+            yellow 33%,
+            yellow 67%,
+            dodgerblue 0);
+}
+
+.germany {
+    background: linear-gradient(black 33%,
+            red 33%,
+            red 67%,
+            yellow 0);
+}
+
+.guinea {
+    background: linear-gradient(to right,
+            crimson 33%,
+            yellow 33%,
+            yellow 67%,
+            mediumseagreen 0);
+}
+
+.hungary {
+    background: linear-gradient(crimson 33%,
+            white 33%,
+            white 67%,
+            forestgreen 0);
+}
+
+.indonesia {
+    background: linear-gradient(red 50%,
+            white 0);
+}
+
+.ireland {
+    background: linear-gradient(to right,
+            mediumseagreen 33%,
+            white 33%,
+            white 67%,
+            darkorange 0);
+}
+
+.italy {
+    background: linear-gradient(to right,
+            green 33%,
+            white 33%,
+            white 67%,
+            red 0);
+}
+
+.ivorycoast {
+    background: linear-gradient(to right,
+            darkorange 33%,
+            white 33%,
+            white 67%,
+            mediumseagreen 0);
+}
+
+.japan {
+    background: radial-gradient(circle at 50%,
+            red 35%,
+            white 0);
+}
+
+.latvia {
+    background: linear-gradient(firebrick 40%,
+            white 40%,
+            white 60%,
+            firebrick 0);
+}
+
+.lithuania {
+    background: linear-gradient(gold 33%,
+            seagreen 33%,
+            seagreen 67%,
+            crimson 0);
+}
+
+.luxembourg {
+    background: linear-gradient(crimson 33%,
+            white 33%,
+            white 67%,
+            deepskyblue 0);
+}
+
+.netherland {
+    background: linear-gradient(crimson 33%,
+            white 33%,
+            white 67%,
+            darkblue 0);
+}
+
+.nigeria {
+    background: linear-gradient(to right,
+            seagreen 33%,
+            white 33%,
+            white 67%,
+            seagreen 0);
+}
+
+.palau {
+    background: radial-gradient(circle at 45%,
+            yellow 30%,
+            dodgerblue 0);
+}
+
+.peru {
+    background: linear-gradient(to right,
+            red 33%,
+            white 33%,
+            white 67%,
+            red 0);
+}
+
+.poland {
+    background: linear-gradient(white 50%,
+            red 0);
+}
+
+.romania {
+    background: linear-gradient(to right,
+            navy 33%,
+            yellow 33%,
+            yellow 67%,
+            crimson 0);
+}
+
+.russia {
+    background: linear-gradient(white 33%,
+            blue 33%,
+            blue 67%,
+            red 0);
+}
+
+.sierraleone {
+    background: linear-gradient(limegreen 33%,
+            white 33%,
+            white 67%,
+            dodgerblue 0);
+}
+
+.ukraine {
+    background: linear-gradient(
+        blue 50%,
+        yellow 0
+    )
+}
+
+.yemen {
+    background: linear-gradient(
+        red 33%,
+        white 33%,
+        white 67%,
+        black 0
+    );
+}
