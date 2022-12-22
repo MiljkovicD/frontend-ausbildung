@@ -214,17 +214,13 @@
 }
 
 .ukraine {
-    background: linear-gradient(
-        blue 50%,
-        yellow 0
-    )
+    background: linear-gradient(blue 50%,
+            yellow 0)
 }
 
 .yemen {
-    background: linear-gradient(
-        red 33%,
-        white 33%,
-        white 67%,
-        black 0
-    );
+    background: linear-gradient(red 33%,
+            white 33%,
+            white 67%,
+            black 0);
 }
