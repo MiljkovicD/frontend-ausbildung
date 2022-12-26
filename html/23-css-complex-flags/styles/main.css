@@ -1,0 +1,216 @@
+.flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.argentina {
+    background: linear-gradient(deepskyblue 33%,
+            white 33%,
+            white 67%,
+            deepskyblue 0);
+}
+
+.argentina__sun {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 125px;
+    margin-top: 75px;
+}
+
+.bahamas {
+    background: linear-gradient(deepskyblue 33%,
+            yellow 33%,
+            yellow 67%,
+            deepskyblue 0);
+}
+
+.bahamas__triangle {
+    position: absolute;
+    border: 100px solid transparent;
+    border-left-color: black;
+}
+
+.bahrain {
+    background-color: red;
+}
+
+.bahrain__triangle {
+    position: absolute;
+    top: -33px;
+    left: -10px;
+    background-color: rgb(255 255 255);
+    width: 110px;
+    height: 110px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-270deg);
+}
+
+.bahrain__triangle:nth-child(2) {
+    top: 7px;
+}
+
+.bahrain__triangle:nth-child(3) {
+    top: 47px;
+}
+
+.bahrain__triangle:nth-child(4) {
+    top: 87px;
+}
+
+.bahrain__triangle:nth-child(5) {
+    top: 127px;
+}
+
+.benin {
+    background: linear-gradient(yellow 50%,
+            red 0);
+}
+
+.benin::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: seagreen;
+}
+
+.botswana {
+    background-color: cornflowerblue;
+    display: grid;
+    place-items: center;
+}
+
+.botswana::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border-width: 10px 0 10px 0;
+    border-color: white;
+    border-style: solid;
+}
+
+.brazil {
+    background-color: green;
+    display: grid;
+    place-items: center;
+}
+
+.brazil__diamond {
+    background-color: yellow;
+    width: 80%;
+    height: 70%;
+    clip-path: polygon(51% 0%, 100% 50%, 51% 100%, 0% 50%);
+}
+
+.brazil__circle {
+    position: absolute;
+    inset: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: blue;
+}
+
+.cameroon {
+    background: linear-gradient(to right,
+            seagreen 33%,
+            red 33%,
+            red 66%,
+            yellow 0);
+    display: grid;
+    place-items: center;
+}
+
+.cameroon__star {
+    width: 90px;
+    height: 90px;
+    background-color: yellow;
+    clip-path: polygon(50% 0%,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%);
+}
+
+.chile {
+    background: linear-gradient(white 50%,
+            red 0);
+}
+
+.chile::before {
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 50%;
+    background-color: darkblue;
+}
+
+.chile::after {
+    position: absolute;
+    content: "";
+    height: 70px;
+    width: 70px;
+    margin: 15px 25px;
+    background-color: white;
+    clip-path: polygon(50% 0%,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%);
+}
+
+.czechia {
+    background: linear-gradient(white 50%,
+            red 0);
+}
+
+.czechia::before {
+    position: absolute;
+    content: "";
+    border-width: 100px 150px;
+    border-style: solid;
+    border-color: transparent transparent transparent darkblue;
+}
+
+.iceland {
+    background: linear-gradient(mediumblue 40%,
+            white 40%,
+            white 45%,
+            crimson 45%,
+            crimson 55%,
+            white 55%,
+            white 60%,
+            mediumblue 0);
+}
+
+.iceland::before {
+    position: absolute;
+    content: "";
+    left: 86px;
+    background: crimson;
+    height: 50%;
+    width: 20px;
+    box-shadow: 0 100px crimson, 10px -12px white, -10px -12px white,
+        10px 110px white, -10px 110px white;
+}
