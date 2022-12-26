@@ -1,0 +1,91 @@
+/* Attribute Selectors */
+/* 1 Punkt */
+a {
+    color: blue;
+}
+
+/* Links mit example überall im Code haben einen silbernen Hintergrund */
+/* 11 Punkte */
+a[href*="example"] {
+    background-color: silver;
+}
+
+/* Links die mit https starten und org aufhören sind grün */
+/* 21 Punkte */
+a[href^="https"][href$=".org"] {
+    color: green;
+}
+
+/* Alle divs mit einem lang attribute sind fett geschrieben. */
+/* 11 Punkte */
+div[lang] {
+    font-weight: bold;
+}
+
+/* Alle divs die Amerikanisch-Englisch sind, sind blau. */
+/* 11 Punkte */
+div[lang~="en-us"] {
+    color: blue;
+}
+
+/* Alle divs die Chinesisch sind, sind rot.
+    Unabhänig davon ob vereinfacht oder traditionelles Chinesisch. */
+    /* 11 Punkte */
+div[lang|="zh"] {
+    color: red;
+}
+
+/* Class Selectors */
+
+/* Der article ist blau. */
+/* 10 Punkte */
+.article {
+    color: blue;
+}
+
+/* Die section ist rot. */
+/* 10 Punkte */
+.section-article {
+    color: red;
+}
+
+/* Der paragraph ist grün. */
+/* 10 Punkte */
+.p-section-article {
+    color: green;
+}
+
+/* Der header ist pink. */
+/* 10 Punkte */
+.header {
+    color: pink;
+}
+
+/* ID Selectors */
+
+/* Jede id div hat den Hintergrund aqua. */
+/* 100 Punkte */
+#div {
+    background-color: aqua;
+}
+
+/* Type Selectors */
+
+/* Bei jedem span ist der Hintergrund hellblau. */
+/* 1 Punkt */
+span {
+    background-color: lightblue;
+}
+
+/* Universal Selectors */
+
+/* Wählt alle quotation aus und macht die violett. */
+/* 10 Punkte */
+*.quotation {
+    color: violet;
+}
+/* Wählt alle cite aus und macht die grün */
+/* 10 Punkte */
+*#cite {
+    color: green;
+}
