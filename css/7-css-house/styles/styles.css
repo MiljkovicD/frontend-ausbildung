@@ -1,0 +1,95 @@
+.background {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #62CFEE;
+    border-bottom: 20px solid #209E27;
+}
+
+.background--night {
+    background-color: #1C114A;
+    border-bottom-color: #193B1D;
+}
+
+.planet {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #FAE91A;
+    right: 20px;
+    top: 50px;
+    position: absolute;
+}
+
+.background--night .planet {
+    background-color: #FFFFFF;
+}
+
+.house {
+    height: 110px;
+    width: 110px;
+    background-color: #F1853F;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.background--night .house {
+    background-color: #7D310D;
+}
+
+.house__roof {
+    width: 0;
+    height: 0;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-bottom: 70px solid #757472;
+    position: absolute;
+    top: -70px;
+}
+
+.background--night .house__roof {
+    border-bottom-color: #3F3C3E;
+}
+
+.house__window {
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(to right,
+            #62CFEE 0%,
+            #1581AA 100%);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.background--night .house__window {
+    background: linear-gradient(to right,
+            #EDDE0D 60%,
+            #A79725 100%);
+}
+
+.house__door {
+    background-color: #000001;
+    height: 55px;
+    width: 35px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.house__door::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #757472;
+    top: 25px;
+    right: 5px;
+}
