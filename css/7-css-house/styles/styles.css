@@ -6,12 +6,14 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-color: #62CFEE;
+    background-image: url(../images/blue-sky.jpeg);
+    background-size: cover;
     border-bottom: 20px solid #209E27;
 }
 
 .background--night {
-    background-color: #1C114A;
+    background-image: url(../images/night-sky.jpeg);
+    background-size: contain;
     border-bottom-color: #193B1D;
 }
 
