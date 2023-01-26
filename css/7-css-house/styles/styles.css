@@ -17,6 +17,27 @@
     border-bottom-color: #193B1D;
 }
 
+.star {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    animation: shoot 1s linear infinite;
+
+}
+
+@keyframes shoot {
+    0% {
+        transform: rotate(-30deg) translate(-350px);
+    }
+
+    100% {
+        transform: rotate(-12deg) translate(200px);
+    }
+}
+
 .planet {
     height: 80px;
     width: 80px;
@@ -25,6 +46,20 @@
     right: 20px;
     top: 50px;
     position: absolute;
+}
+
+.sun {
+    animation: pulse 1s ease-in infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0px 0px 0px #FAE91A;
+    }
+
+    25% {
+        box-shadow: 0px 0px 45px #FC5A03;
+    }
 }
 
 .background--night .planet {
