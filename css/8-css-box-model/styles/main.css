@@ -1,0 +1,33 @@
+.container {
+    width: 500px;
+    height: 500px;
+}
+
+.box-model {
+    border: 2px dashed black;
+}
+
+.box-model__box {
+    padding: 15px 30px 38px;
+    font-size: 20px;
+}
+
+.box-model__box--margin {
+    background-color: #F8CC9E;
+}
+
+.box-model__box--border {
+    background-color: #FCDD9A;
+    border: 2px solid black;
+}
+
+.box-model__box--padding {
+    background-color: #C2D08A;
+    border: 2px dashed grey;
+}
+
+.box-model__box--content {
+    background-color: #8CB6C2;
+    border: 2px solid grey;
+    padding-bottom: 15px;
+}
