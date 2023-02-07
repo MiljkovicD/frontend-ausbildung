@@ -25,7 +25,6 @@
     position: absolute;
     top: 50px;
     animation: shoot 1s linear infinite;
-
 }
 
 @keyframes shoot {
@@ -48,7 +47,7 @@
     position: absolute;
 }
 
-.sun {
+.planet--sun {
     animation: pulse 1s ease-in infinite;
 }
 
