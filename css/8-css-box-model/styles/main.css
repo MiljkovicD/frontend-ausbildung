@@ -1,0 +1,33 @@
+.container {
+    width: 500px;
+    height: 500px;
+}
+
+.box {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.margin {
+    background-color: #F8CC9E;
+    border: 1px solid grey;
+    border: 2px dashed black;
+}
+
+.border {
+    background-color: #FCDD9A;
+    border: 1px solid grey;
+    border: 2px solid black;
+}
+
+.padding {
+    background-color: #C2D08A;
+    border: 1px solid grey;
+    border: 2px dashed grey;
+}
+
+.content {
+    background-color: #8CB6C2;
+    border: 1px solid grey;
+    border: 2px solid grey;
+}
