@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>Hufflepuff</title>
+</head>
+
+<body>
+    <header class="header--main">
+        <nav class="nav--header">
+            <a href="index.html">
+                <img class="header--img--logo" src="./images/hufflepuff-logo.jpeg" alt="Hufflepuff Logo">
+            </a>
+            <ul class="nav--list">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#declaration">ABOUT US</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <img class="header--img--search" src="./images/search-icon-png.png" alt="Search Button">
+        </nav>
+    </header>
+    <img class="image--poster" src="./images/hufflepuff-poster.jpeg" alt="Hufflepuff Poster">
+    <section class="section--paragraph">
+        <p>“You might belong in Hufflepuff, Where they are just and loyal, Those patient Hufflepuffs are true, And
+            unafraid of toil.”
+            — Sorting Hat
+        </p>
+    </section>                                                            
+    <section class="section--declaration">
+        <h3>
+            <a id="declaration">ABOUT THE HOUSE</a>
+        </h3>
+        <p>Hufflepuff was one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the
+            medieval witch Helga Hufflepuff. Hufflepuff was the most inclusive among the four houses, valuing hard work,
+            dedication, patience, loyalty, and fair play rather than a particular aptitude in its members.</p>
+        <button class="declaration--button">
+            <a href="https://harrypotter.fandom.com/wiki/Hufflepuff" target="_blank">SEE MORE...</a>
+        </button>
+    </section>
+    <section class="section--news">
+        <h3>
+            <a id="news">NEWS</a>
+        </h3>
+        <p class="news--paragraph">
+            The Daily Prophet is a wizarding newspaper based in London, England. It is the primary source of news
+            for
+            British and Irish wizards and costs 2 Sickles. The current Chief in Editor is Selevas Amagus, who works
+            in
+            the main office in Diagon Alley.
+        </p>
+        <aside class="news--box">
+            <p class="news--box--paragraph">
+                Lost Your Owl? Stay in Touch With The Latest Wizarding News!
+            </p>
+            <label for="email" class="news--label--mail">
+                <input type="email" name="email" id="email" placeholder="Bitte E-Mail eingeben" size="23">
+            </label>
+            <button class="news--button--sub" type="submit">
+                SUBSCRIBE!
+            </button>
+        </aside>
+    </section>
+    <section class="section--contact">
+        <h3>
+            <a id="contact">CONTACT</a>
+        </h3>
+        <p class="section--contact--text">
+            We encourage you to contact us for any ideas, concerns, contributions or collaborations.
+        </p>
+        <form class="contact--form">
+            <div class="form--group">
+                <input type="text" class="form--control" name="firstname" placeholder="First Name">
+            </div>
+
+            <div class="form--group">
+                <input type="text" class="form--control" name="lastname" placeholder="Last Name">
+            </div>
+
+            <div class="form--group">
+                <input type="text" class="form--control" name="street" placeholder="Street">
+            </div>
+
+            <div class="form--group">
+                <input type="number" class="form--control" name="number" placeholder="Number">
+            </div>
+
+            <div class="form--group">
+                <input type="text" class="form--control" name="city" placeholder="City">
+            </div>
+
+            <div class="form--group">
+                <input type="number" class="form--control" name="postcode" placeholder="Postcode">
+            </div>
+
+            <div class="form--group">
+                <input type="text" class="form--control" name="message" placeholder="Message">
+            </div>
+
+            <div class="form--group">
+                <input type="submit" class="btn-primary" name="button_name" value="SEND">
+            </div>
+        </form>
+    </section>
+    <footer class="footer--section">
+        <nav class="nav--footer">
+            <ul class="nav--list--footer">
+                <li><a href="">LINKS</a></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#declaration">ABOUT US</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <p class="footer--text">
+            Copyright 2023
+        </p>
+    </footer>
+</body>
+
+</html>
