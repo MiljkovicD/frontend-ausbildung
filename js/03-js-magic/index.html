@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Magic Arts</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Select a spell:</legend>
+
+        <div>
+            <label>
+                <input class="radio-spell" type="radio" id="accio" name="spell" value="accio" checked>
+                Accio
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input class="radio-spell" type="radio" id="levioso" name="spell" value="levioso">
+                Levioso
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input class="radio-spell" type="radio" id="glacius" name="spell" value="glacius">
+                Glacius
+            </label>
+        </div>
+    </fieldset>
+
+    <div class="button">
+        <button class="button__btn button__btn--activate">Activate</button>
+        <button class="button__btn button__btn--cancel" disabled>Cancel</button>
+    </div>
+
+    <div class="playground">
+        <div class="wizard">
+            <img class="wizard__img wizard__img-inactive" src="./images/ns.png" alt="Newt Scamander">
+            <img class="wizard__img wizard__img-activate wizard__img--hidden" src="./images/ns_active.png"
+                alt="Newt Scamander conjures">
+        </div>
+        <div class="rocket"></div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

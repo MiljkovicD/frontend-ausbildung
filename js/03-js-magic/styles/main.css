@@ -1,0 +1,70 @@
+fieldset {
+    margin-bottom: 15px;
+}
+
+.button__btn {
+    margin-bottom: 100px;
+}
+
+.playground {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 15px;
+}
+
+.wizard__img {
+    height: 250px;
+    width: 150px;
+}
+
+.wizard__img--hidden {
+    display: none;
+}
+
+.rocket {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.rocket--accio {
+    background-color: purple;
+    animation: go-up 2s both;
+}
+
+@keyframes go-up {
+    0% {
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateX(-300px);
+
+    }
+}
+
+.rocket--levioso {
+    background-color: darkgoldenrod;
+    animation: go-left 2s both;
+}
+
+@keyframes go-left {
+    0% {
+        transform: translateY(0px);
+
+    }
+
+    100% {
+        transform: translateY(-150px);
+
+    }
+}
+
+.rocket--glacius {
+    background-color: lightblue;
+}
